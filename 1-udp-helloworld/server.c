@@ -61,7 +61,7 @@ int main() {
   // udp has the possibility of sending datagrams to broadcast (ipv4) or
   // multicast (ipv4 + ipv6) addresses; to enable, set the socket option
   // SO_BROADCAST to 1
-  // char val = 1;
+  // int val = 1;
   // if (setsockopt(sockfd, SOL_SOCKET, SO_BROADCAST, &val, sizeof(val)) < 0) {
   // perror("failed setting socket options");
   // return 1;
